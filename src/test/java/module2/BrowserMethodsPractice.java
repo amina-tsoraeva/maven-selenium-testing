@@ -1,5 +1,5 @@
 package module2;
-
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class BrowserMethodsPractice {
@@ -10,7 +10,7 @@ public class BrowserMethodsPractice {
 
        WebDriver driver = new ChromeDriver();
         String url = "https://www.amazon.com/";
-        driver.get(Url);
+        driver.get(url);
         driver.manage().window().maximize();
         Thread.sleep(5000);
 
