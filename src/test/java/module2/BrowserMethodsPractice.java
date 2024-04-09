@@ -1,4 +1,5 @@
 package module2;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 public class BrowserMethodsPractice {
@@ -7,10 +8,9 @@ public class BrowserMethodsPractice {
     public static void main(String[] args) throws InterruptedException {
 
 
-
-        WebDriver driver = new ChromeDriver();
+       WebDriver driver = new ChromeDriver();
         String url = "https://www.amazon.com/";
-        driver.get(url);
+        driver.get(Url);
         driver.manage().window().maximize();
         Thread.sleep(5000);
 
@@ -42,6 +42,7 @@ public class BrowserMethodsPractice {
         Thread.sleep(5000);
 
         driver.quit();
+
 
 
 
